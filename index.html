@@ -421,16 +421,16 @@
             </label>
             <label class="register-form-field">
               <span class="register-form-label text">Коментар</span>
-              <textarea name="comment" rows="5" placeholder="Введіть текст"></textarea>
+              <textarea class="register-form-massage" name="comment" rows="5" placeholder="Введіть текст"></textarea>
             </label>
           </div>
           <label class="register-form-agreement" >
-            <input type="checkbox" name="permission" />
-            <svg width="16" height="15 ">
-            <use href="./img/icons.svg#icon-check" ></use>
-            <use href="./img/icons.svg#icon-ancheck" ></use>
+            <input class="checkbox visually-hidden" type="checkbox" name="permission" />
+            <svg class="register-form-agreement-icon" width="16" height="15 ">
+            <use class="icon-check" href="./img/icons.svg#icon-check" ></use>
+            <use class="icon-uncheck" href="./img/icons.svg#icon-uncheck" ></use>
             </svg>
-            <span class="register-form-label text">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> </span>
+            <span class="register-form-desc text">Погоджуюся з розсилкою та приймаю <a class="form-link" href="#">Умови договору</a> </span>
           </label>
           <button class="register-form-button" type="submit">Відправити</button>
         </form>
