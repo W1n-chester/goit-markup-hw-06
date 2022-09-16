@@ -552,7 +552,7 @@ color:var(--main-txt-cl);
 
 }
 .register-form-field:not(:last-child){
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .register-form-label{
   display: block;
