@@ -478,7 +478,7 @@ background-color:var(--accent-bg-cl);
   text-transform: uppercase;
   color: var(--ligh-txt-cl);
 }
-/* Modal Winow */
+/* Modal Window */
 .backdrop {
   position: fixed;
   top: 0;
